@@ -1,0 +1,12 @@
+div#widgets {
+    width: 100%;
+    min-height: 1000px;
+}
+
+div.draggable {
+    position: absolute;
+}
+
+div.draggable h2 {
+    cursor: move;
+}

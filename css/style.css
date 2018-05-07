@@ -1,0 +1,34 @@
+body {
+    text-align:center;
+    margin: 0px;
+}
+
+div#title {
+    width: 550px;
+    position: relative;
+    left: 50%;
+    margin-left: -275px;
+}
+
+div#title img {
+    height: 60px;
+    float: left;
+}
+
+div#title h1 {
+    line-height: 50px;
+}
+
+fieldset {
+    border-style: none;
+    padding-right: 30px;
+    text-align: left;
+}
+
+fieldset > p > textarea {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
